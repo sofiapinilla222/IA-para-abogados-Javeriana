@@ -18,29 +18,41 @@ Bienvenido/a a tu repositorio de proyecto. **Este archivo es tu tablero de mando
 
 ## 📋 Parte 1 — Descripción del proyecto
 
-> Completa cada sección con 3–10 frases. Sé concreto/a: esta descripción es la que tu IA usará como contexto y la que el docente usará para realimentarte.
+📋 Parte 1 — Descripción del proyecto
+1.1 El problema jurídico
 
-### 1.1 El problema jurídico
-¿Qué problema **real del derecho colombiano** resuelve tu herramienta? ¿Quién lo sufre hoy y cómo lo resuelve sin tu herramienta?
+Los consumidores colombianos frecuentemente tienen dificultades para identificar si un problema con un producto o servicio está relacionado con la garantía legal o con el derecho de retracto, y qué pueden exigir al proveedor o productor. También pueden desconocer cómo presentar correctamente una reclamación directa y qué hacer cuando el proveedor no responde o rechaza injustificadamente su solicitud. Sin una orientación jurídica clara, muchos consumidores realizan reclamaciones incompletas, no adjuntan las pruebas necesarias o desconocen los pasos posteriores ante la Superintendencia de Industria y Comercio (SIC). La herramienta busca facilitar una primera orientación jurídica y ayudar al consumidor a redactar el documento adecuado según su situación. Su objetivo no es reemplazar a un abogado, sino convertir los hechos narrados por el consumidor en una reclamación jurídicamente fundamentada.
 
-### 1.2 Usuarios
-¿Quién va a usarla? Describe a tu usuario ideal en una frase (ej. *"un arrendatario bogotano que le subieron el canon de arrendamiento más del límite legal"*). Recuerda que al final necesitas **al menos un usuario real** que la pruebe.
+1.2 Usuarios
 
-### 1.3 Qué hace y qué NO hace (alcance)
-| ✅ Sí hace | ❌ No hace |
-| --- | --- |
-| [funcionalidad 1] | [fuera de alcance 1] |
-| [funcionalidad 2] | [fuera de alcance 2] |
+El usuario ideal es un consumidor colombiano que adquirió un producto o servicio y considera que puede hacer valer la garantía legal o ejercer el derecho de retracto. La herramienta estará dirigida principalmente a personas que no tienen conocimientos jurídicos y necesitan saber qué derechos tienen y cómo reclamarlos. El usuario podrá explicar en lenguaje cotidiano qué compró, cuándo lo adquirió, cómo realizó la compra y cuál es el problema. La herramienta le hará preguntas para determinar si su situación puede estar relacionada con una garantía o con el retracto. Finalmente, podrá obtener un borrador de reclamación directa o, cuando corresponda, orientación para presentar una queja ante la SIC. La herramienta deberá ser probada por al menos un consumidor real para evaluar si las instrucciones y documentos generados son comprensibles y útiles.
 
-*Consejo de abogado: un alcance pequeño y perfecto vale más que uno grande y roto.*
+1.3 Qué hace y qué NO hace (alcance)
+✅ Sí hace	❌ No hace
+Identifica, a partir de los hechos narrados, si el caso podría estar relacionado con garantía legal o derecho de retracto.	No determina de manera definitiva quién tiene la razón en una controversia.
+Hace preguntas al consumidor para recopilar los hechos relevantes.	No analiza todos los derechos del consumidor ni todas las normas del Estatuto del Consumidor.
+Explica de manera sencilla los derechos y requisitos aplicables.	No sustituye la asesoría de un abogado.
+Genera un borrador de reclamación directa dirigido al proveedor o productor.	No presenta automáticamente la reclamación ante la empresa.
+Orienta sobre los pasos que puede seguir el consumidor ante la SIC cuando corresponda.	No garantiza que la SIC admita o resuelva favorablemente una queja o demanda.
+Indica qué documentos o pruebas podrían ser útiles para respaldar la reclamación.	No inventa hechos, pruebas, normas ni respuestas de las empresas.
 
-### 1.4 Marco jurídico y fuentes
-¿Qué normas alimentan tu herramienta? Lista tu corpus normativo (leyes, decretos, sentencias — debe ser **pequeño y público**):
-- [ ] Norma/sentencia 1: [nombre + enlace]
-- [ ] Norma/sentencia 2: [nombre + enlace]
+1.4 Marco jurídico y fuentes
 
-### 1.5 Nombre y lema
-Un nombre corto para tu herramienta y una frase que explique qué hace (la usarás en la demo del día de presentaciones).
+El corpus jurídico será pequeño y público, concentrado principalmente en la regulación colombiana sobre protección al consumidor. La norma principal será la Ley 1480 de 2011 (Estatuto del Consumidor), especialmente las disposiciones relacionadas con la garantía legal, el derecho de retracto y la reclamación directa. También se utilizarán fuentes oficiales de la Superintendencia de Industria y Comercio para complementar la explicación de los mecanismos de protección al consumidor.
+
+Ley 1480 de 2011 — Estatuto del Consumidor: Ley 1480 de 2011 – Secretaría del Senado
+Superintendencia de Industria y Comercio — Protección al consumidor: SIC – Protección al consumidor
+Superintendencia de Industria y Comercio — Reclamo directo: SIC – Reclamo directo
+
+Nota: En el proyecto conviene usar el nombre correcto Ley 1480 de 2011, no “Ley 1489 de 2011”.
+
+1.5 Nombre y lema
+
+Nombre: 🛡️ ReclamaIA
+
+Lema: “Entiende tus derechos. Reclama con respaldo.”
+
+La herramienta será un asistente de protección al consumidor que recibe los hechos del usuario, identifica si podría aplicar la garantía legal o el derecho de retracto y genera una reclamación directa fundamentada en la normativa colombiana. Cuando la situación lo requiera, también orientará al usuario sobre las alternativas disponibles ante la SIC.
 
 ---
 
