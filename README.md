@@ -2,9 +2,9 @@
 
 **Pontificia Universidad Javeriana · 2026-II · Docente: Pedro Ardila**
 
-> **Estudiante:** [escribe aquí tu nombre completo]
-> **Nombre del proyecto:** [escribe aquí el nombre de tu herramienta]
-> **Fecha de inicio:** [AAAA-MM-DD]
+> **Estudiante:** Sofia Catalina Pinilla Barrios
+> **Nombre del proyecto:** 🛡️ ReclamaIA
+> **Fecha de inicio:** 2026-07-28
 
 ---
 
@@ -18,39 +18,39 @@ Bienvenido/a a tu repositorio de proyecto. **Este archivo es tu tablero de mando
 
 ## 📋 Parte 1 — Descripción del proyecto
 
-📋 Parte 1 — Descripción del proyecto
-1.1 El problema jurídico
+### 1.1 El problema jurídico
 
 Los consumidores colombianos frecuentemente tienen dificultades para identificar si un problema con un producto o servicio está relacionado con la garantía legal o con el derecho de retracto, y qué pueden exigir al proveedor o productor. También pueden desconocer cómo presentar correctamente una reclamación directa y qué hacer cuando el proveedor no responde o rechaza injustificadamente su solicitud. Sin una orientación jurídica clara, muchos consumidores realizan reclamaciones incompletas, no adjuntan las pruebas necesarias o desconocen los pasos posteriores ante la Superintendencia de Industria y Comercio (SIC). La herramienta busca facilitar una primera orientación jurídica y ayudar al consumidor a redactar el documento adecuado según su situación. Su objetivo no es reemplazar a un abogado, sino convertir los hechos narrados por el consumidor en una reclamación jurídicamente fundamentada.
 
-1.2 Usuarios
+### 1.2 Usuarios
 
 El usuario ideal es un consumidor colombiano que adquirió un producto o servicio y considera que puede hacer valer la garantía legal o ejercer el derecho de retracto. La herramienta estará dirigida principalmente a personas que no tienen conocimientos jurídicos y necesitan saber qué derechos tienen y cómo reclamarlos. El usuario podrá explicar en lenguaje cotidiano qué compró, cuándo lo adquirió, cómo realizó la compra y cuál es el problema. La herramienta le hará preguntas para determinar si su situación puede estar relacionada con una garantía o con el retracto. Finalmente, podrá obtener un borrador de reclamación directa o, cuando corresponda, orientación para presentar una queja ante la SIC. La herramienta deberá ser probada por al menos un consumidor real para evaluar si las instrucciones y documentos generados son comprensibles y útiles.
 
-1.3 Qué hace y qué NO hace (alcance)
-✅ Sí hace	❌ No hace
-Identifica, a partir de los hechos narrados, si el caso podría estar relacionado con garantía legal o derecho de retracto.	No determina de manera definitiva quién tiene la razón en una controversia.
-Hace preguntas al consumidor para recopilar los hechos relevantes.	No analiza todos los derechos del consumidor ni todas las normas del Estatuto del Consumidor.
-Explica de manera sencilla los derechos y requisitos aplicables.	No sustituye la asesoría de un abogado.
-Genera un borrador de reclamación directa dirigido al proveedor o productor.	No presenta automáticamente la reclamación ante la empresa.
-Orienta sobre los pasos que puede seguir el consumidor ante la SIC cuando corresponda.	No garantiza que la SIC admita o resuelva favorablemente una queja o demanda.
-Indica qué documentos o pruebas podrían ser útiles para respaldar la reclamación.	No inventa hechos, pruebas, normas ni respuestas de las empresas.
+### 1.3 Qué hace y qué NO hace (alcance)
 
-1.4 Marco jurídico y fuentes
+| ✅ Sí hace | ❌ No hace |
+| --- | --- |
+| Identifica, a partir de los hechos narrados, si el caso podría estar relacionado con garantía legal o derecho de retracto. | No determina de manera definitiva quién tiene la razón en una controversia. |
+| Hace preguntas al consumidor para recopilar los hechos relevantes. | No analiza todos los derechos del consumidor ni todas las normas del Estatuto del Consumidor. |
+| Explica de manera sencilla los derechos y requisitos aplicables. | No sustituye la asesoría de un abogado. |
+| Genera un borrador de reclamación directa dirigido al proveedor o productor. | No presenta automáticamente la reclamación ante la empresa. |
+| Orienta sobre los pasos que puede seguir el consumidor ante la SIC cuando corresponda. | No garantiza que la SIC admita o resuelva favorablemente una queja o demanda. |
+| Indica qué documentos o pruebas podrían ser útiles para respaldar la reclamación. | No inventa hechos, pruebas, normas ni respuestas de las empresas. |
+
+### 1.4 Marco jurídico y fuentes
 
 El corpus jurídico será pequeño y público, concentrado principalmente en la regulación colombiana sobre protección al consumidor. La norma principal será la Ley 1480 de 2011 (Estatuto del Consumidor), especialmente las disposiciones relacionadas con la garantía legal, el derecho de retracto y la reclamación directa. También se utilizarán fuentes oficiales de la Superintendencia de Industria y Comercio para complementar la explicación de los mecanismos de protección al consumidor.
 
-Ley 1480 de 2011 — Estatuto del Consumidor: Ley 1480 de 2011 – Secretaría del Senado
-Superintendencia de Industria y Comercio — Protección al consumidor: SIC – Protección al consumidor
-Superintendencia de Industria y Comercio — Reclamo directo: SIC – Reclamo directo
+- **Ley 1480 de 2011 — Estatuto del Consumidor:** [Ley 1480 de 2011 – Secretaría del Senado](http://www.secretariasenado.gov.co/senado/basedoc/ley_1480_2011.html)
+- **Superintendencia de Industria y Comercio — Protección al consumidor:** [SIC – Protección al consumidor](https://www.sic.gov.co/proteccion-del-consumidor)
+- **Superintendencia de Industria y Comercio — Reclamo directo:** [SIC – Reclamo directo](https://www.sic.gov.co/como-hacer-un-reclamo-directo)
 
-Nota: En el proyecto conviene usar el nombre correcto Ley 1480 de 2011, no “Ley 1489 de 2011”.
+> **Nota:** En el proyecto conviene usar el nombre correcto Ley 1480 de 2011, no “Ley 1489 de 2011”.
 
-1.5 Nombre y lema
+### 1.5 Nombre y lema
 
-Nombre: 🛡️ ReclamaIA
-
-Lema: “Entiende tus derechos. Reclama con respaldo.”
+- **Nombre:** 🛡️ ReclamaIA
+- **Lema:** “Entiende tus derechos. Reclama con respaldo.”
 
 La herramienta será un asistente de protección al consumidor que recibe los hechos del usuario, identifica si podría aplicar la garantía legal o el derecho de retracto y genera una reclamación directa fundamentada en la normativa colombiana. Cuando la situación lo requiera, también orientará al usuario sobre las alternativas disponibles ante la SIC.
 
@@ -60,19 +60,19 @@ La herramienta será un asistente de protección al consumidor que recibe los he
 
 Marca cada hito cuando lo termines. Los hitos siguen las sesiones del curso.
 
-- [ ] **M0 — Descripción y plan** *(con Sesión 1)*: Partes 1 y 2 de este README completas.
-- [ ] **M1 — Asistente con instrucciones v1** *(Sesión 1–2)*: redactaste las instrucciones (prompt de sistema) de tu asistente y funcionan en una herramienta gratuita de chat.
-- [ ] **M2 — Casos de prueba documentados** *(Sesión 2)*: tienes al menos 5 casos de prueba (donde antes fallaba) con resultados guardados en `docs/casos-de-prueba.md`.
-- [ ] **M3 — Corpus conectado (RAG)** *(Sesión 3)*: tu asistente **cita la fuente** normativa que usa y no inventa. Corpus cargado en `corpus/`.
+- [x] **M0 — Descripción y plan** *(con Sesión 1)*: Partes 1 y 2 de este README completas.
+- [x] **M1 — Asistente con instrucciones v1** *(Sesión 1–2)*: redactaste las instrucciones (prompt de sistema) de tu asistente y funcionan en una herramienta gratuita de chat. Ver [`prompts/sistema-v1.md`](prompts/sistema-v1.md).
+- [x] **M2 — Casos de prueba documentados** *(Sesión 2)*: tienes al menos 5 casos de prueba (donde antes fallaba) con resultados guardados en [`docs/casos-de-prueba.md`](docs/casos-de-prueba.md).
+- [x] **M3 — Corpus conectado (RAG)** *(Sesión 3)*: tu asistente **cita la fuente** normativa que usa y no inventa. Corpus cargado en [`corpus/`](corpus/).
 - [ ] **M4 — Interfaz web desplegada** *(Sesión 4)*: tu herramienta tiene **URL pública** (ver Parte 4) y tu primer usuario real la probó con evidencia.
 - [ ] **M5 — Análisis crítico y demo** *(Sesión 5)*: Parte 7 completada + presentación de 5 minutos.
 
 ### Bitácora de avance semanal
 | Semana | Qué hice | Enlace/captura | Dudas para la clase |
 | --- | --- | --- | --- |
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Definición del problema jurídico, alcance del asistente ReclamaIA (garantía vs. retracto), delimitación de fuentes normativas (Ley 1480 de 2011 y SIC) y plan inicial (M0). | N/A | Ninguna por ahora |
+| 2 | Redacción del prompt de sistema v1/v1.1 (`prompts/sistema-v1.md`) y ejecución y documentación de los 5 casos de prueba comparativos de fallo previo vs. éxito calibrado (`docs/casos-de-prueba.md`). | [`docs/casos-de-prueba.md`](docs/casos-de-prueba.md) | Ninguna por ahora |
+| 3 | Carga y estructuración del corpus normativo en `corpus/` (Ley 1480 y guías de la SIC), diseño del pipeline RAG y creación de la app interactiva en Streamlit (`app.py`). | [`corpus/`](corpus/) | Ninguna por ahora |
 | 4 | | | |
 | 5 | | | |
 
