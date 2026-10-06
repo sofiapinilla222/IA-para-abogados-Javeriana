@@ -106,6 +106,8 @@ Pídele a tu agente de IA que te explique esta arquitectura con tu proyecto conc
 
 Tu meta: **una URL pública** que cualquiera pueda abrir. Elige una ruta:
 
+https://reclamia.streamlit.app/
+
 ### Opción A — Vercel ⭐ (recomendada, la del curso)
 1. Sube tu código a este repo de GitHub (ya lo tienes ✅).
 2. Crea cuenta gratis en [vercel.com](https://vercel.com) con tu GitHub.
